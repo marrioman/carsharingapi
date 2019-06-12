@@ -27,7 +27,6 @@ func main() {
 		for {
 			repository.PostData()
 			time.Sleep(time.Second * time.Duration(n))
-			break
 		}
 	}()
 
